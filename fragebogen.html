@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Saskia Mellies">
+<meta name="description" content="Fragebogen">
+    <title>Erfassung Ist-Stand IT-Sicherheit der Applikationen</title>
+</head>
+<body>
+<form action="datenverarbeitung.php" method="post">
+    <label for="name"> Um welche Applikation handelt es sich?:</label>
+    <input type="text" id="name" name="Um welche Applikation handelt es sich?" required><br>
+
+    <label for="accounts">  Wie viele Accounts sind eingerichtet?:</label>
+    <select id="accounts" name="Anzahl Accounts" required>
+            <option value="antwort1"> weniger oder gleich 10</option>
+            <option value="antwort2"> weniger oder gleich 50</option>
+            <option value="antwort3"> weniger oder gleich 100</option>
+            <option value="antwort4"> mehr als 100</option>
+        </select><br>
+
+    <input type="submit" value="Absenden">
+</form>
+
+</body>
+</html>
