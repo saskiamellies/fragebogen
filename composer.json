@@ -1,6 +1,5 @@
 {
   "require": {
     "phpoffice/phpspreadsheet": "^1.29",
-    "ext-sqlite3": "*"
-  }
-}
+    "ext-pdo_mysql": "*"
+  }}
